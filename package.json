@@ -1,0 +1,28 @@
+{
+  "name": "basilisk-lang",
+  "displayName": "Basilisk Language Support",
+  "description": "Syntax highlighting for the Basilisk language",
+  "version": "0.0.2",
+  "repository": "https://github.com/viper-org/basilisk-vscode",
+  "publisher": "viper-org",
+  "contributors": ["s-mist"],
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "basilisk",
+      "aliases": ["Basilisk", "basilisk", "bslk"],
+      "extensions": [".bslk"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "basilisk",
+      "scopeName": "source.bslk",
+      "path": "./syntaxes/basilisk.tmLanguage.json"
+    }]
+  }
+}

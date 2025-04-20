@@ -1,0 +1,85 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Basilisk",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#types"
+		},
+		{
+			"include": "#integers"
+		},
+		{
+			"include": "#identifiers"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.bslk",
+					"match": "\\b(if|while|for|return)\\b"
+				},
+				{
+					"name": "keyword.other.bslk",
+					"match": "\\b(let|func|import|export|struct)\\b"
+				}
+			]
+		},
+		"types": {
+			"patterns": [
+				{
+					"name": "storage.type.bslk",
+					"match": "\\b(bool|void|i8|i16|i32|i64|u8|u16|u32|u64)\\b[\\*]*"
+				}
+			]
+		},
+		"identifiers": {
+			"patterns": [
+				{
+					"name": "variable.other.bslk",
+					"match": "@?[+a-zA-Z_]\\w*"
+				}
+			]
+		},
+		"integers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.dec.bslk",
+					"match": "[0-9]+"
+				},
+				{
+					"name": "constant.numeric.hex.bslk",
+					"match": "0x[0-9a-f]"
+				},
+				{
+					"name": "constant.numeric.oct.bslk",
+					"match": "0[0-7]+"
+				},
+				{
+					"name": "constant.numeric.bin.bslk",
+					"match": "0b[0|1]+"
+				}
+			]
+		},
+		"strings": {
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.bslk",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.bslk"
+}
