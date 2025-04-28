@@ -30,7 +30,7 @@
 				},
 				{
 					"name": "keyword.other.bslk",
-					"match": "\\b(let|func|import|export|struct)\\b"
+					"match": "\\b(let|global|func|import|export|struct)\\b"
 				}
 			]
 		},

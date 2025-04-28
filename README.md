@@ -19,3 +19,7 @@ Updated extension name to **Basilisk Language Support**
 ### 0.0.3
 
 Added highlighting for `break` and `continue` keywords
+
+### 0.0.4
+
+Added highlighting for `global` keyword
