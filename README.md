@@ -23,3 +23,11 @@ Added highlighting for `break` and `continue` keywords
 ### 0.0.4
 
 Added highlighting for `global` keyword
+
+### 0.0.5
+
+Added new keywords:
+* true
+* false
+* nullptr
+* else

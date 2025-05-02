@@ -26,11 +26,15 @@
 			"patterns": [
 				{
 					"name": "keyword.control.bslk",
-					"match": "\\b(if|while|for|return|break|continue)\\b"
+					"match": "\\b(if|else|while|for|return|break|continue)\\b"
 				},
 				{
 					"name": "keyword.other.bslk",
 					"match": "\\b(let|global|func|import|export|struct)\\b"
+				},
+				{
+					"name": "constant.language.bslk",
+					"match": "\\b(true|false|nullptr)\\b"
 				}
 			]
 		},
