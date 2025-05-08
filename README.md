@@ -31,3 +31,15 @@ Added new keywords:
 * false
 * nullptr
 * else
+
+### 0.0.6
+
+Added new keywords:
+* str
+* char
+* byte
+* isz
+* usz
+* len
+* sizeof
+* module
