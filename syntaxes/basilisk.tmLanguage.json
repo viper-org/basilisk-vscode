@@ -22,6 +22,19 @@
 		}
 	],
 	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.bslk",
+					"match": "(//).*$"
+				},
+				{
+					"name": "comment.block.bslk",
+					"begin": "/\\*",
+					"end": "\\*/"
+				}
+			]
+		},
 		"keywords": {
 			"patterns": [
 				{

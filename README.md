@@ -43,3 +43,7 @@ Added new keywords:
 * len
 * sizeof
 * module
+
+### 0.0.7
+
+Added line and block comments
