@@ -2,7 +2,7 @@
   "name": "basilisk-lang",
   "displayName": "Basilisk Language Support",
   "description": "Syntax highlighting for the Basilisk language",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "repository": "https://github.com/viper-org/basilisk-vscode",
   "publisher": "viper-org",
   "contributors": ["s-mist"],

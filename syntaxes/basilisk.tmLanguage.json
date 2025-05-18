@@ -43,7 +43,7 @@
 				},
 				{
 					"name": "keyword.other.bslk",
-					"match": "\\b(let|global|func|len|sizeof|module|import|export|struct)\\b"
+					"match": "\\b(let|global|const|func|len|sizeof|module|import|export|struct)\\b"
 				},
 				{
 					"name": "constant.language.bslk",

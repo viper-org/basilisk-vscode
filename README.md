@@ -47,3 +47,7 @@ Added new keywords:
 ### 0.0.7
 
 Added line and block comments
+
+### 0.0.8
+
+Added highlighting for `const` keyword
